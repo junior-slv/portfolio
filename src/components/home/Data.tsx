@@ -55,13 +55,13 @@ const Data = () => {
                   ></path>
          </svg>
       </h1>
-      <h3 className="home__subtitle">Programador fullstack</h3>
+      <h3 className="home__subtitle">Desenvolvedor Full stack</h3>
         <p className="home__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
            Voluptate suscipit sequi temporibus distinctio assumenda eius consequatur minima corrupti, 
            modi omnis dolore debitis impedit est culpa consequuntur fuga tenetur veniam sint?
         </p>
 
-        <a href="" className="button button--flex">Say hello!
+        <a href="" className="button button--flex">Diga olá
           <svg
                   className="button__icon"
                   xmlns="http://www.w3.org/2000/svg"
