@@ -2,10 +2,6 @@ import React, { useState } from 'react'
 import './Qualification.css'
 
 const Qualification = () => {
-    const [toggleState, setToggleState] = useState(1);
-    const toggleTab = (index:any) => {
-        setToggleState(index)
-    }
   return (
     <section className="qualification section">
         <h2 className="section__title">Qualificação</h2>
@@ -17,7 +13,6 @@ const Qualification = () => {
                     </i>{" "}Educação
                 </div>
             </div>
-
             <div className="qualification__section">
                 <div className="qualification__content">
                     <div className="qualification__data">
@@ -29,7 +24,6 @@ const Qualification = () => {
                                 <i className="uil uil-calendar-alt">
                                 </i> 2022 - Presente
                             </div>
-
                         </div>
                     </div>
                     <div className="qualification__data">
@@ -62,10 +56,8 @@ const Qualification = () => {
                     </div>
                 </div>
             </div>
-
         </div>
     </section>
-
   )
 }
 
