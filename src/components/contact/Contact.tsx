@@ -14,18 +14,18 @@ const Contact = () => {
   return (
     <section className="contact section" id="contact">
         <h2 className="section__title">Contatos</h2>
-        <span className="section__subtitle">Me chama</span>
+        <span className="section__subtitle">Diretamente comigo</span>
 
         <div className="contact__container container grid">
 
           <div className="contact__content">
-            <h3 className="contact__title">Fale comigol</h3>
+            <h3 className="contact__title">Fale comigo!</h3>
             <div className="contact__info">
               <div className="contact__card">
                 <i className="bx bx-mail-send contact__card-icon"></i>
                 <h3 className="contact__card-title">Email</h3>
                 <span className="contact__card-data">dirceusilva0422@gmail.com</span>
-                <a href="mailto:dirceusilva0422@gmail.com" className="contact__button">Escreva paramim <i className="bx bx-right-arrow-alt"></i></a>
+                <a href="mailto:dirceusilva0422@gmail.com" className="contact__button">Envie um email <i className="bx bx-right-arrow-alt"></i></a>
             
               </div>
 
@@ -33,7 +33,7 @@ const Contact = () => {
                 <i className='bx bxl-whatsapp contact__card-icon'></i>
                 <h3 className="contact__card-title">Whatsapp</h3>
                 <span className="contact__card-data">+55 43 99934-3075</span>
-                <a href="https://wa.me/5543999343075?text=Ol%C3%A1%2C+Junior%21" className="contact__button">Escreva paramim <i className="bx bx-right-arrow-alt"></i></a>
+                <a href="https://wa.me/5543999343075?text=Ol%C3%A1%2C+Junior%21" className="contact__button">Envie uma mensagem<i className="bx bx-right-arrow-alt"></i></a>
             
               </div>
 
