@@ -14,10 +14,11 @@ const About = () => {
             <img src={AboutImg} alt="" className="about__img" />
             <div className="about__data">
                 <Info/>
-                <p className="about__description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi rerum quidem quam,
-                 provident doloribus eum id repellat libero, quas 
-                 alias quia nemo minus necessitatibus, 
-                 esse numquam. Amet fugiat itaque velit.</p>
+                <p className="about__description">
+                Crio páginas web
+                com interface de usuário <br/> UI / UX, com ênfase na 
+                experiencia do usuário e satisfação do cliente.
+                </p>
 
                  <a download="" href={CV} className="button button--flex">Download CV
                  <svg
