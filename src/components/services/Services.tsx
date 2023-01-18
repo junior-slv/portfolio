@@ -16,7 +16,7 @@ const Services = () => {
             <div className="services__content">
                 <div>
                     <i className="uil uil-web-grid services__icon"></i>
-                    <h3 className="services__title">Product<br/> designer</h3>
+                    <h3 className="services__title">Web<br/> design</h3>
                 </div>
                 <span className="services__button" onClick={() => toggleTab(1)}>Veja mais {" "} <i className="uil uil-arrow-right services__button-icon"></i></span>
 
@@ -25,30 +25,46 @@ const Services = () => {
                         <i className="uil uil-times services__modal-close" onClick={() => toggleTab(0)}></i>
                         <h3 className="services__modal-title"></h3>
                         <p className="services__modal-description">
-                            Lorem ipsum dolor!
+                            Dê o destaque que seu negócio merece, <br/>
+                            tire as idéias do papel!
                         </p>
                         <ul className="services__modal-services grid">
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">Lorem ipsum dolor!
+                                <p className="services__modal-info">Páginas web com design moderno
                                 </p>
                             </li>
 
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">Lorem ipsum dolor!</p>
+                                <p className="services__modal-info">Responsividade para todo tipo de aparelho</p>
                             </li>
 
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">Lorem ipsum dolor!</p>
+                                <p className="services__modal-info">Incremente sua credibilidade</p>
+                            </li>
+                            
+                            <li className="services__modal-service">
+                                <i className="uil uil-check-circle services__modal-icon"></i>
+                                <p className="services__modal-info">Facilidade para ser encontrado</p>
+                            </li>
+
+                            <li className="services__modal-service">
+                                <i className="uil uil-check-circle services__modal-icon"></i>
+                                <p className="services__modal-info">Marcar presença online 24 horas </p>
+                            </li>
+
+                            <li className="services__modal-service">
+                                <i className="uil uil-check-circle services__modal-icon"></i>
+                                <p className="services__modal-info">Fortalecer a marca</p>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
 
-            <div className="services__content">
+            {/* <div className="services__content">
                 <div>
                     <i className="uil uil-arrow services__icon"></i>
                     <h3 className="services__title">Product<br/> designer</h3>
@@ -123,7 +139,7 @@ const Services = () => {
                         </ul>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     </section>
   )
