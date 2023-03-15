@@ -1,0 +1,119 @@
+import React, { useState } from 'react'
+import './Portifolio.css'
+
+const Portifolio     = () => {
+    const [toggleState, setToggleState] = useState(0);
+    const toggleTab = (index:any) => {
+        setToggleState(index)
+    }
+  return (
+
+    <section className="services section" id="portfolio">
+        <h2 className="section__title">Portifólio</h2>
+        <span className="section__subtitle">Projetos relevantes que já trabalhei</span>
+
+        <div className="services__container container grid">
+            <div className="services__content">
+                <div>
+                    <i className="bx bx-money-withdraw services__icon"></i>
+                    <h3 className="services__title">Currency<br/> now</h3>
+                    <p>Serviço de câmbio em tempo real</p><br/>
+                </div>
+                <span className="services__button" onClick={() => toggleTab(1)}>Veja mais {" "} <i className="uil uil-arrow-right services__button-icon"></i></span>
+
+                <div className={toggleState === 1 ? "services__modal active-modal" : "services__modal"}>
+                    <div className="services__modal-content">
+                        <i className="uil uil-times services__modal-close" onClick={() => toggleTab(0)}></i>
+                        <h3 className="services__modal-title"></h3>
+                        <p className="services__modal-description">
+                            <h2>Sobre o projeto</h2>
+                            <p>Um conversor de câmbio que utiliza TypeScript e React. Com uma interface dinâmica e responsiva, os usuários podem converter diferentes tipos de moedas.</p><br/>
+                            <h2>Documentação e código fonte: </h2>
+                            <h3><a href="https://github.com/junior-slv/currency-now" target="_blank">Github</a></h3><br/>
+                        </p>
+                        </div>
+                </div>  
+            </div>
+
+            {/* <div className="services__content">
+                <div>
+                    <i className="uil uil-arrow services__icon"></i>
+                    <h3 className="services__title">Product<br/> designer</h3>
+                </div>
+                <span className="services__button" onClick={() => toggleTab(2)}>Veja mais {" "} <i className="uil uil-arrow-right services__button-icon"></i></span>
+
+                <div className={toggleState === 2 ? "services__modal active-modal" : "services__modal"}>
+                    <div className="services__modal-content">
+                        <i className="uil uil-times services__modal-close" onClick={() => toggleTab(0)}></i>
+                        <h3 className="services__modal-title"></h3>
+                        <p className="services__modal-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci aspernatur officiis voluptatem 
+                            ea unde deleniti, eum aperiam nisi nostrum vitae eius quae esse sit totam fugit! 
+                            Quia deserunt illo iusto!
+                        </p>
+                        <ul className="services__modal-services grid">
+                            <li className="services__modal-service">
+                                <i className="uil uil-check-circle services__modal-icon"></i>
+                                <p className="services__modal-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eligendi neque eius eveniet voluptas laboriosam illo q
+                                uia non accusantium? Rem adipisci consequuntur, sequi placeat dolore libero odit nesciunt error beatae!</p>
+                            </li>
+
+                            <li className="services__modal-service">
+                                <i className="uil uil-check-circle services__modal-icon"></i>
+                                <p className="services__modal-info">Lorem ipsum dolor placeat dolore libero odit nesciunt error beatae!</p>
+                            </li>
+
+                            <li className="services__modal-service">
+                                <i className="uil uil-check-circle services__modal-icon"></i>
+                                <p className="services__modal-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eligendi neque eius eveniet voluptas laboriosam illo q
+                                uia non accusantium? Rem adipisci consequuntur, sequi placeat dolore libero odit nesciunt error beatae!</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div className="services__content">
+                <div>
+                    <i className="uil uil-edit services__icon"></i>
+                    <h3 className="services__title">Product<br/> designer</h3>
+                </div>
+                <span className="services__button" onClick={() => toggleTab(3)}>Veja mais {" "} <i className="uil uil-arrow-right services__button-icon"></i></span>
+
+                <div className={toggleState === 3 ? "services__modal active-modal" : "services__modal"}>
+                    <div className="services__modal-content">
+                        <i className="uil uil-times services__modal-close" onClick={() => toggleTab(0)}></i>
+                        <h3 className="services__modal-title"></h3>
+                        <p className="services__modal-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci aspernatur officiis voluptatem 
+                            ea unde deleniti, eum aperiam nisi nostrum vitae eius quae esse sit totam fugit! 
+                            Quia deserunt illo iusto!
+                        </p>
+                        <ul className="services__modal-services grid">
+                            <li className="services__modal-service">
+                                <i className="uil uil-check-circle services__modal-icon"></i>
+                                <p className="services__modal-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eligendi neque eius eveniet voluptas laboriosam illo q
+                                uia non accusantium? Rem adipisci consequuntur, sequi placeat dolore libero odit nesciunt error beatae!</p>
+                            </li>
+
+                            <li className="services__modal-service">
+                                <i className="uil uil-check-circle services__modal-icon"></i>
+                                <p className="services__modal-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eligendi neque eius eveniet voluptas laboriosam illo q
+                                uia non accusantium? Rem adipisci consequuntur, sequi placeat dolore libero odit nesciunt error beatae!</p>
+                            </li>
+
+                            <li className="services__modal-service">
+                                <i className="uil uil-check-circle services__modal-icon"></i>
+                                <p className="services__modal-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eligendi neque eius eveniet voluptas laboriosam illo q
+                                uia non accusantium? Rem adipisci consequuntur, sequi placeat dolore libero odit nesciunt error beatae!</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div> */}
+        </div>
+    </section>
+  )
+}
+
+export default Portifolio
