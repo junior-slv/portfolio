@@ -15,7 +15,7 @@ const Backend = () => {
           
 
           <div>
-            <h3 className="skills__name">Java</h3>
+            <h3 className="skills__name">Node.js</h3>
             <span className="skills__level">Intermediário</span>
           </div>
           </div>
@@ -25,7 +25,7 @@ const Backend = () => {
           
 
           <div>
-            <h3 className="skills__name">SpringBoot</h3>
+            <h3 className="skills__name">Express.js</h3>
             <span className="skills__level">Intermediário</span>
           </div>
           </div>
@@ -35,7 +35,7 @@ const Backend = () => {
           
 
           <div>
-            <h3 className="skills__name">MySql</h3>
+            <h3 className="skills__name">Sequelize</h3>
             <span className="skills__level">Intermediário</span>
           </div>
           </div>
@@ -45,7 +45,7 @@ const Backend = () => {
           
 
           <div>
-            <h3 className="skills__name">Git</h3>
+            <h3 className="skills__name">MySQL</h3>
             <span className="skills__level">Intermediário</span>
           </div>
           </div>

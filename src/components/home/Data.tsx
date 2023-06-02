@@ -57,9 +57,15 @@ const Data = () => {
       </h1>
       <h3 className="home__subtitle">Desenvolvedor Full stack</h3>
       <p className="home__description">
-      Estudante completamente apaixonado por tudo que envolva tecnologia, busco sempre
-      manter constante aprendizado. Tenho mais proficiência com Typescript e React, 
-      mas sei um pouco de tudo que preciso para desenvolver meus projetos.
+        E aí, pessoal! Sou um estudante viciado em tecnologia, apaixonado até a
+        última célula do meu código! 💻💡 Com uma proficiência ninja em
+        Typescript e React, além de um arsenal de habilidades para desenvolver
+        projetos, encaro desafios tecnológicos de cabeça erguida. Amo codar
+        tanto que até esqueço de comer às vezes (culpa da empolgação, juro!).
+        Mas relaxa, mantenho a compostura profissional enquanto trago aquela
+        vibe descontraída. Se precisar de alguém para tornar seu projeto
+        incrível e dar umas boas risadas, estou aqui, pronto para enfrentar
+        qualquer desafio e fazer a mágica acontecer! 🚀💪
       </p>
 
       <a
